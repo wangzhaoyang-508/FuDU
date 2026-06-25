@@ -1,0 +1,6 @@
+image_id,image_path,f0,f1
+stream_easy_normal,examples/images/stream_easy_normal.jpg,0.02,0.01
+stream_outlier,examples/images/stream_outlier.jpg,2.40,2.30
+stream_uncertain_defect,examples/images/stream_uncertain_defect.jpg,0.92,0.90
+stream_borderline,examples/images/stream_borderline.jpg,0.48,0.50
+
