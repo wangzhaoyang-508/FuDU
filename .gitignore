@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+
+# FuDU generated outputs
+runs/
+outputs/
+*.npz
+*.npy
+
+# Datasets and private artifacts
+data/
+datasets/
+images/
+annotations/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
