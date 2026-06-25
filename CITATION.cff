@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the FuDU paper."
+title: "FuDU: A Fuzzy Dual-dimensional Uncertainty Framework for Streaming Active Learning in Industrial Defect Detection"
+authors:
+  - family-names: Wang
+    given-names: Zhaoyang
+  - family-names: Chen
+    given-names: Haiyong
+  - family-names: Su
+    given-names: Binyi
+  - family-names: Lyu
+    given-names: Xinwei
+year: 2026
+repository-code: "https://github.com/<your-org>/FuDU"
+
