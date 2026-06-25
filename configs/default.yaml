@@ -1,0 +1,37 @@
+# Default FuDU scoring configuration.
+# The CLI exposes these values as flags or built-in defaults.
+
+deue:
+  w_cls: 1.0
+  w_loc: 2.0
+  divisor: paper
+
+fuzzy_membership:
+  nuclear_fuel_rod:
+    global_uncertainty:
+      VL: [0.0, 0.0, 0.10, 0.20]
+      L:  [0.10, 0.20, 0.30, 0.40]
+      H:  [0.30, 0.40, 0.60, 0.80]
+      VH: [0.60, 0.80, 1.00, 1.00]
+    defect_uncertainty:
+      VL: [0.0, 0.0, 0.10, 0.20]
+      L:  [0.10, 0.20, 0.50, 0.60]
+      H:  [0.50, 0.60, 0.80, 0.90]
+      VH: [0.80, 0.90, 1.00, 1.00]
+  eles:
+    global_uncertainty:
+      VL: [0.0, 0.0, 0.10, 0.20]
+      L:  [0.10, 0.20, 0.30, 0.40]
+      H:  [0.30, 0.40, 0.55, 0.65]
+      VH: [0.55, 0.65, 1.00, 1.00]
+    defect_uncertainty:
+      VL: [0.0, 0.0, 0.08, 0.15]
+      L:  [0.08, 0.15, 0.35, 0.45]
+      H:  [0.35, 0.45, 0.70, 0.80]
+      VH: [0.70, 0.80, 1.00, 1.00]
+
+action_probability:
+  DNS: 0.0
+  LS: 0.1
+  HS: 0.5
+  MS: 1.0
