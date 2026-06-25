@@ -1,0 +1,8 @@
+image_id,label,f0,f1
+seed_normal_001,normal,0.00,0.03
+seed_normal_002,normal,0.04,-0.02
+seed_normal_003,normal,-0.03,0.02
+seed_defect_001,defect,1.00,0.96
+seed_defect_002,defect,0.95,1.04
+seed_defect_003,defect,1.08,0.98
+
